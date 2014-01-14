@@ -9,3 +9,4 @@ I built Metrogram to learn more about the [AngularJS](http://angularjs.org/). Ju
 Created by **Kaspars Dambis**   
 [http://konstruktors.com](http://konstruktors.com)  
 [@konstruktors](http://twitter.com/konstruktors)
+Customized for The Edwardian Ball by Dan Cote https://github.com/terminationsho
