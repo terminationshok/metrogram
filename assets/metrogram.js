@@ -12,7 +12,8 @@ var metrogram = angular.module(
   	).controller(
 		'slideshow', function ( $scope, $http, $timeout, $route, $location ) {
 			// Set the API endpoint
-			var api = 'https://api.instagram.com/v1/tags/%tag%/media/recent?access_token=257058201.9af4692.3d68e63b114944a0be332da732923a23&callback=JSON_CALLBACK',
+			//var api = 'https://api.instagram.com/v1/tags/%tag%/media/recent?access_token=257058201.9af4692.3d68e63b114944a0be332da732923a23&callback=JSON_CALLBACK',
+			var api = 'https://api.instagram.com/v1/tags/%tag%/media/recent?client_id=4838132ceac745538f1bb92d9bc5d022&callback=JSON_CALLBACK',
 				newReq, refreshApi;
 
 			$scope.fetchImages = function() {
